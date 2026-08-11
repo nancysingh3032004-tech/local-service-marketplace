@@ -1,0 +1,7 @@
+{
+  "name":"local-service-marketplace-frontend",
+  "version":"1.0.0",
+  "private":true,
+  "dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","react-router-dom":"latest","recharts":"latest"},
+  "scripts":{"start":"vite","build":"vite build"}
+}
