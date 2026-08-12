@@ -1,4 +1,4 @@
-const BASE="http://localhost:5000/api";
+const BASE="https://local-service-marketplace-fbx4.onrender.com/api";
 export async function api(path, options={}){
  const token=localStorage.getItem("token");
  const headers={...(options.body instanceof FormData?{}:{"Content-Type":"application/json"}),...(token?{Authorization:`Bearer ${token}`}:{})};
